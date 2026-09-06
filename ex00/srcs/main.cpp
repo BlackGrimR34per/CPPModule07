@@ -6,12 +6,11 @@
 /*   By: yosherau <yosherau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/29 18:33:44 by yosherau          #+#    #+#             */
-/*   Updated: 2026/04/29 20:27:13 by yosherau         ###   ########.fr       */
+/*   Updated: 2026/09/06 16:50:32 by yosherau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "whatever.hpp"
-#include <iostream>
+#include "../include/whatever.hpp"
 
 int main( void ) {
 	int a = 2;
