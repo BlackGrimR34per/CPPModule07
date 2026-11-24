@@ -6,7 +6,7 @@
 /*   By: yosherau <yosherau@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/04 13:55:19 by yosherau          #+#    #+#             */
-/*   Updated: 2026/05/04 14:10:06 by yosherau         ###   ########.fr       */
+/*   Updated: 2026/11/24 22:34:17 by yosherau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,10 @@
 # define ITER_HPP
 
 # include <cstddef>
+# include <stdlib.h>
 
 template <typename T>
-void	iter(T *array, const std::size_t length)
+void	iter(T *array, std::size_t length, void (*func)(T &elem))
 {
 	
 }
